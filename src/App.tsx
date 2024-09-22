@@ -52,7 +52,7 @@ const App: React.FC = () => {
                     <div className="about-us">
                         <h2>About Us</h2>
                         <div className="about-us-cards">
-                        {aboutTeamMembers.map(member => (
+                            {aboutTeamMembers.map(member => (
                                 <AboutCard key={member.name} {...member} />
                             ))}
                         </div>
@@ -105,7 +105,7 @@ const aboutTeamMembers = [
     {name: "Daniel Frankel", quote: "Likes Minecraft.", role: "YouTuber", github: "https://github.com/danielfrankel"},
     {name: "Daniel Zhuo", quote: "Sleeping my fix schedule.", role: "Unemployed", github: "https://github.com/SirDanielIII"},
     {name: "Ethan Goldberg", quote: "Yeet.", role: "[Put Role Here]", github: "https://github.com/ethangoldberg13"},
-    {name: "Jacob Phillipson", quote: "Yeet.", role: "[Put Role Here]", github: "https://youtu.be/dQw4w9WgXcQ"},
+    {name: "Jacob Phillipson", quote: "Yeet.", role: "[Put Role Here]", github: "https://github.com/Jacobzsp"},
     {name: "Joel Mills", quote: "Yeet.", role: "[Put Role Here]", github: "https://github.com/joelmills2"},
 ];
 
