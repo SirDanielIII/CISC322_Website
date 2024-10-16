@@ -57,8 +57,8 @@ const AssignmentPage: React.FC<AssignmentPageProps> = ({
                             height="600px"
                         >
                             <p>
-                                PDF failed to load. You can{' '}
-                                <a href={"https://youtu.be/dQw4w9WgXcQ?si=5g95WRUzCOw-N0Um"}>click here to download the PDF</a>.
+                                It appears you don't have a PDF plugin for this browser. You can{' '}
+                                <a href={`${assetPath}/${reportFilename}`}>click here to download the PDF</a>
                             </p>
                         </object>
                     </div>
@@ -84,8 +84,8 @@ const AssignmentPage: React.FC<AssignmentPageProps> = ({
                             height="600px"
                         >
                             <p>
-                                PDF failed to load. You can{' '}
-                                <a href={"https://youtu.be/dQw4w9WgXcQ?si=5g95WRUzCOw-N0Um"}>click here to download the PDF</a>.
+                                It appears you don't have a PDF plugin for this browser. You can{' '}
+                                <a href={`${assetPath}/${reportFilename}`}>click here to download the PDF</a>
                             </p>
                         </object>
                     </div>
