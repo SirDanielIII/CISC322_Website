@@ -1,18 +1,15 @@
+/* App.css */
+
 #root {
-    max-width: 1280px;
     margin: 0 auto;
-    /*padding: 2rem;*/
     text-align: center;
 }
 
 .card {
-    width: 1000px; /* 80% of the viewport width */
+    padding-top: 2em;
     height: 325px;
-    margin: 0 auto; /* Ensure it's centered horizontally */
-    padding: 2em; /* Optional padding for content inside */
-    background-color: #212121;
+    margin: 0 auto;
 }
-
 
 .card-buttons {
     padding: 1em;
@@ -24,7 +21,9 @@
     margin-top: 20px;
 }
 
-.button, .back-button {
+.button,
+.back-button,
+.buttons-container a {
     background-color: #007bff;
     color: white;
     padding: 10px 15px;
@@ -33,9 +32,13 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25s, box-shadow 0.25s, transform 0.1s;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.button:hover, .back-button:hover {
+.button:hover,
+.back-button:hover,
+.buttons-container a:hover {
     background-color: #0056b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.04);
@@ -48,11 +51,11 @@
 }
 
 .about-us {
-    padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background: #292929;*/
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .about-us-cards {
@@ -64,17 +67,28 @@
 }
 
 .about-card {
-    display: block; /* Ensures the entire card is clickable */
+    display: block;
     padding: 40px;
     width: calc(50% - 20px);
     box-sizing: border-box;
     text-align: left;
     transition: transform 0.2s;
     background: #222222;
-    color: white; /* Ensures text color is white */
-    text-decoration: none; /* Removes underline from the link */
+    color: white;
+    text-decoration: none;
 }
 
 .about-card:hover {
     transform: translateY(-5px);
+}
+
+.assignment,
+.resources {
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.resource-links ul {
+    list-style-type: none;
+    margin: 0;
 }

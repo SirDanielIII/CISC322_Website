@@ -1,10 +1,11 @@
-import {StrictMode} from 'react'
-import {createRoot} from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import './css/index.css';
+import './css/App.css';
 
-createRoot(document.getElementById('root')!).render(
-    <StrictMode>
-        <App/>
-    </StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+    <BrowserRouter basename="/cisc322">
+        <App />
+    </BrowserRouter>
+);
