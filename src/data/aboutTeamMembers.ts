@@ -20,14 +20,14 @@ export const aboutTeamMembers = [
     },
     {
         name: 'Ethan Goldberg',
-        quote: '[Insert quote here].',
+        quote: '"uhhhh idk"',
         role: 'cries in C++',
         github: 'https://github.com/ethangoldberg13',
     },
     {
         name: 'Jacob Phillipson',
-        quote: '[Insert quote here].',
-        role: '"Engineer"',
+        quote: '"JUST DO IT 🗣️🗣️🗣️"️',
+        role: 'Group Leader',
         github: 'https://github.com/Jacobzsp',
     },
     {
